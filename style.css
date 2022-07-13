@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+* {
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+      display: flex;
+      flex-direction: column;
+      max-width: 100vw;
+      overflow-x: hidden;
+    }
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 24px;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    .logo{
+        width: 80px;
+        height: 24px;
+    }
+    .headerRight{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 167px;
+        margin-top: 5px;
+    }
+    .headerRightHeadlines{
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #07043B;
+        cursor: pointer;
+        background-color: #FFFFFF;
+        border: 0px;
+    }
+    .firstSec{
+        margin-top: 98px;
+    }
+    .firstSecImage{
+        margin-left: 36px;
+        margin-right: 35px;
+        width: 304px;
+        height: 225px;
+    }
+    .firstSecTextsAndButtons{
+        margin-top: 40px;
+    }
+    .firstSecHeadline{
+        margin-left: 36px;
+        margin-right: 35px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 36px;
+        text-align: center;
+    }
+    .firstSecParagraph{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        color: #07043B;
+        margin-top: 24px;
+        margin-left: 36px;
+        margin-right: 43px;
+    }
+    .firstButtons{
+        margin-top: 32px;
+        margin-left: 38px;
+        margin-right: 33px;
+        display: flex;
+        flex-direction: column;
+    }
+    .emailFormF{
+        width: 100%;
+        height: 40px;
+        margin-bottom: 16px;
+    }
+    #email{
+        width: 100%;
+        height: 40px;
+        padding-left: 21px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.4px;
+        color: #C2C2C2;
+    }
+    .firstGetStarted{
+        width: 100%;
+        height: 40px;
+        border: 0px;
+        transition: 0.5s;
+        cursor: pointer;
+        background: #2F65F8;
+        box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+        border-radius: 3.125px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+        margin-bottom: 90px;
+    }
+    .firstGetStarted:hover{
+        background: #6C9BFF;
+    }
+    .bgDiv{
+        width: 100%;
+    }
+    .secondSec{
+        background-color: #F8F8FE;;
+    }
+    .secondSecImage{
+        margin-left: 28px;
+        margin-right: 27px;
+        margin-top: 70px;
+        height: 241px;
+        width: 320px;
+    }
+    .secondSecTexts{
+        margin-top: 87px;
+    }
+    .secondSecH{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #07043B;
+    }
+    .secondSecFirstP{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        color: #615F7E;
+        margin-left: 20px;
+        margin-right: 35px;
+    }
+    .secondSecSecondP{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        color: #615F7E;
+        margin-left: 20px;
+        margin-right: 35px;
+        margin-top: 16px;
+    }
+    .greenPart{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 36px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: #3DA08F;
+        cursor: pointer;
+    }
+    .greenH:hover{
+        color: #71DFCC;
+    }
+    .greenH{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: #3DA08F;
+        background-color: #F8F8FE;
+        border: 0px;
+    }
+    hr{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 6px;
+        border: 0.1px solid #3DA08F;
+        width: 130px;
+        position: relative;
+        transform: translateX(92%);
+    }
+    .card{
+        height: 169.1011199951172px;
+        width: 280px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        margin-left: 48px;
+        margin-right: 47px;
+        margin-bottom: 81.9px;
+        background-color: #FFFFFF;
+        padding-top: 17px;
+        padding-right: 12.74px;
+        padding-left: 25.96px;
+        padding-bottom: 19.25px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 8px 4px rgba(56, 56, 56, 0.0458843);
+        border-radius: 3.93258px;
+    }
+    .quotes{
+        height: 54px;
+        width: 14px;
+    }
+    .cardP{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 18px;
+        letter-spacing: 0.384615px;
+        color: #07043B;
+        margin-top: 11px;
+    }
+    .person{
+        display: flex;
+        flex-direction: row;
+        margin-top: 11.94px;
+
+    }
+    .personImage{
+        height: 24px;
+        width: 24px;
+        border-radius: 50%;
+        margin-right: 7.46px;
+    }
+    .name{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 9px;
+        line-height: 12px;
+        letter-spacing: 0.45px;
+        color: #07043B;
+    }
+    .position{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 6px;
+        line-height: 12px;
+        letter-spacing: 0.3px;
+        color: #07043B;
+    }
+    .ThirdSec{
+        background: #575988;
+        padding-top: 54px;
+        padding-bottom: 71px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .thirdSecH{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        color: #FFFFFF;
+        margin-bottom: 16px;
+    }
+    .thirdSecP{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-right: 48px;
+        margin-left: 47px;
+        margin-bottom: 24px;
+    }
+    .thirdSecButtons{
+        margin-right: 69px;
+        margin-left: 66px;
+    }
+    .emailForm3{
+        width: 100%;
+        height: 32px;
+        margin-bottom: 8px;
+    }
+    #email2{
+        width: 100%;
+        height: 40px;
+        padding-left: 21px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.4px;
+        color: #C2C2C2;
+        border: 0px;
+    }
+    .secondGetStarted{
+        margin-top: 8px;
+        width: 100%;
+        height: 32px;
+        border: 0px;
+        transition: 0.5s;
+        cursor: pointer;
+        background: #2F65F8;
+        box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+        border-radius: 3.125px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 12px;
+        color: #FFFFFF
+    }
+    .secondGetStarted:hover{
+        background: #6C9BFF;
+    }
+    footer{
+        background-color: #07043B;
+        padding-top: 65px;
+        padding-left: 39px;
+        padding-bottom: 42px;
+    }
+    .footerFirstContent{
+        margin-bottom: 32px;
+    }
+    .footerImage{
+        width: 105px;
+        height: 30px;
+        margin-bottom: 32px;
+    }
+    .phone{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 16px;
+    }
+    .phoneImage{
+        height: 18px;
+        width: 18px;
+        margin-right: 19px;
+    }
+    .phoneH{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+    .mail{
+        display: flex;
+        flex-direction: row;
+    }
+    .emailImage{
+        width: 20px;
+        height: 16px;
+        margin-right: 19px;
+    }
+    .imageH{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+    .footerSecContent{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #FFFFFF;
+        column-gap: 16px;
+        margin-bottom: 32.5px;
+    }
+    .footerH5{
+        margin-bottom: 16px;
+    }
+    .footerThirdContent{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #FFFFFF;
+        column-gap: 16px;
+        margin-bottom: 32px;
+    }
+    .socialMediaIcons{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .fIcon{
+        background-color: #07043B;;
+        width: 27.06px;
+        height: 27px;
+        border: 1px solid white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10.82px;
+        }
+        .fa-facebook{
+        color: white;
+        }
+        .fa-twitter{
+            color: white;
+            }
+        .fa-instagram{
+            color: white;
+            }
+        
+        
+    
+    
+    
+        
+    
