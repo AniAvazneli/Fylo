@@ -438,6 +438,9 @@ body{
             .bgDiv2{
                 display: none;
             }
+            .bgImage{
+                width: 100%;
+            }
         
 @media screen and (min-width: 1440px){
     header{
